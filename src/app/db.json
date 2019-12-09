@@ -1,0 +1,25 @@
+{
+    "produtos": [
+      {
+        "id": 1,
+        "titulo": "O Palmeiras não tem mundial",
+        "conteudo": "Só para constar!"
+      },
+      {
+        "id": 2,
+        "titulo": "V Festival de verão",
+        "conteudo": "Parangolé, É o tchan!"
+      },
+      {
+        "id": 3,
+        "titulo": "X-Bacon",
+        "conteudo": "Pão, bife de hambúrguer 90g, 1 fatia de queijo, 2 fatia de bacon, salada e batata."
+      },
+      {
+        "id": 4,
+        "titulo": "X-Tudo",
+        "conteudo": "Pão, 2 bifes de hambúrguer 90g, 2 fatias de queijo, 4 fatias de bacon, salada e batata."
+      }
+    ]
+  }
+  
