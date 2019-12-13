@@ -1,0 +1,29 @@
+
+.principal {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+}
+.lista{
+    padding: 20px;
+    min-width: 120px;
+    max-width: 400px;
+    width: 100%;
+    margin-top: 0px;
+    font-size: 3em;
+}
+
+.card-list {
+    background-color: rgb(233, 213, 236);
+
+}
+.data {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: black;
+    background-color: rgb(233, 213, 236);
+    height: 30%;
+    width: auto;
+}
+

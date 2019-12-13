@@ -1,11 +1,19 @@
+.principal {
+  display: flex;
+  justify-content: center;
+}
 
-.example-form {
+.form-card {
+  display: flex;
+  align-self: flex-start;
+  margin-top: 0px;
+}
+
+.form {
   padding: 20px;
   display: flex;
+  align-items: flex-start;
   flex-direction: column;
-  min-width: 150px;
-  max-width: 500px;
-  width: 100%;
 }
 
 .example-full-width {
@@ -16,4 +24,6 @@
   align-items: flex-end;
 }
 
-  
+.example-pizza-party {
+  color: hotpink;
+}

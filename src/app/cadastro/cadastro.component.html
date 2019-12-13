@@ -1,15 +1,18 @@
-<body class="corpo">
-<form class="example-form">
-    <div>
-        <label>Titulo</label>
-        <mat-form-field class="example-full-width">
-            <input matInput placeholder="Informe um nome" value="">
-        </mat-form-field>
-        <label>Conteúdo</label>
-        <mat-form-field class="example-full-width">
-            <textarea matInput placeholder="Deixe um comentario"></textarea>
-        </mat-form-field>
-        <button class="bt_enviar" mat-stroked-button>Enviar</button>
-    </div>
-</form>
-</body>
+<div class="principal">
+	<mat-card class="form-card">
+		<form class="form" [formGroup]="formPost" (ngSubmit)="onSubmit()">
+			<div>
+				<label>Assunto</label>
+				<mat-form-field class="example-full-width">
+					<input [(ngModel)]="durationInSeconds" matInput formControlName="assunto" type="text" placeholder="">
+				</mat-form-field>
+				<label>Conteúdo</label>
+				<mat-form-field class="example-full-width">
+					<textarea matInput formControlName="conteudo" placeholder=""></textarea>
+				</mat-form-field>
+				<button class="bt_enviar" mat-stroked-button color="primary" mat-button (click)="openBt()"
+					aria-label="Show an example snack-bar">Postar</button>
+			</div>
+		</form>
+	</mat-card>
+</div>

@@ -2,18 +2,33 @@
   "posts": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "assunto": "Curso new Go Horse",
+      "conteudo": "Não fique fora dessa, aqui você voce codifica sem realizar testes!!"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "assunto": "New Go Horse",
+      "conteudo": "Ultimas vagas!!"
+    },
+    {
+      "assunto": "Promoção no GPA",
+      "conteudo": "É promoção que você quer bb??\nCorre lá no minuto ;-)",
+      "id": 3
+    },
+    {
+      "assunto": "Convite",
+      "conteudo": "Dia 21/12/2019 - Bday do Alê",
+      "id": 4
+    },
+    {
+      "assunto": "Novo Evento",
+      "conteudo": "Não fique de fora dessa!!",
+      "id": 5
+    },
+    {
+      "assunto": "Festa de Fim de Ano",
+      "conteudo": "Resource, convida seus colaboradores para participar da festa de final de ano no espaço Vila Lobos.",
+      "id": 6
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

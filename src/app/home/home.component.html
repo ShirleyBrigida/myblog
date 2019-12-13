@@ -1,1 +1,20 @@
-<p>home works!</p>
+<div class="principal">
+    <div>
+        <div *ngFor="let post of posts$ | async" class="lista">
+            <mat-card class="card-list">
+                <mat-card-header class="lbAssunto">
+                    <mat-card-title>{{ post.assunto }}</mat-card-title>
+                </mat-card-header>
+                <mat-card-content class="list-card-content">
+                    <p>{{ post.conteudo }}</p>
+                </mat-card-content>
+            </mat-card>
+        </div>
+    </div>
+    <div class="data">
+        <p class="hora-data">
+            {{ now | date:'d'}} de {{ now | date:'MMMM'}} de {{ now | date:'y'}}<br>
+            {{ now | date: 'hh:mm:ss' }}
+        </p>
+    </div>
+</div>
