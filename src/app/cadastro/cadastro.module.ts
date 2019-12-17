@@ -7,7 +7,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
-import { FooterModule } from '../footer/FooterModule';
+import { FooterModule } from '../footer/footerModule';
 
 
 @NgModule({

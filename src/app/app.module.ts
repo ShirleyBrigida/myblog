@@ -19,6 +19,7 @@ import { MatCardModule } from '@angular/material/card';
 import { FooterComponent } from './footer/footer.component';
 import { registerLocaleData } from '@angular/common';
 import localePt from '@angular/common/locales/pt';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 registerLocaleData(localePt);
 
@@ -42,7 +43,8 @@ registerLocaleData(localePt);
     MatInputModule,
     MatButtonModule,
     MatCardModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    MatToolbarModule
   ],
   providers: [PostService,
              {provide: LOCALE_ID, useValue: 'pt-BR'}],
