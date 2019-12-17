@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'myblog';
+  private data = new Date("04/24/2010");
 }
